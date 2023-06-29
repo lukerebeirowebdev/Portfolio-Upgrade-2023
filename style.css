@@ -247,11 +247,9 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  overflow: hidden;
 }
 
 .project-information {
-  overflow: hidden;
   font-size: 18px;
   align-items: center;
   justify-content: center;
@@ -430,12 +428,6 @@ footer {
 
   .header-card h3 {
     font-size: 25px;
-  }
-
-  .btn-box .btn {
-    font-size: 20px;
-    width: auto;
-    overflow: hidden;
   }
 }
 

@@ -19,7 +19,6 @@
 html {
   font-size: 62.5%;
   height: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -28,7 +27,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  overflow-x: hidden;
 }
 
 .container {
@@ -36,13 +34,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
   width: 100%;
   padding: 0 1rem;
   background: var(--second-bg-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  position: relative;
   transition: 0.5s;
   cursor: pointer;
   -webkit-transition: 0.5s;
@@ -97,7 +93,7 @@ section {
 }
 
 .home {
-  display: flex;
+  display: grid;
   background: url("IMG-20230618-WA0068.jpg") no-repeat;
   background-size: cover;
   background-position: right;
@@ -107,10 +103,13 @@ section {
 }
 
 .home-content {
-  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   background: transparent;
   max-width: 800px;
-  z-index: 99;
 }
 
 .home-content h1 {

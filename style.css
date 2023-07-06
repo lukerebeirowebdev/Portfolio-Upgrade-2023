@@ -11,7 +11,7 @@
 }
 
 .container {
-  display: grid;
+  display: flex;
 }
 
 :root {
@@ -399,7 +399,7 @@ footer {
 }
 
 /* Extra Small Devices (portrait phones) */
-@media (max-width: 420px) {
+@media (max-width: 320px) {
   html {
     font-size: 50%;
   }

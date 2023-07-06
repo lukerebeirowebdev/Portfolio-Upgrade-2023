@@ -37,8 +37,6 @@ body {
   width: 100%;
   padding: 0 1rem;
   background: var(--second-bg-color);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
   transition: 0.5s;
   cursor: pointer;
   -webkit-transition: 0.5s;

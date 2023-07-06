@@ -42,7 +42,6 @@ body {
   background: var(--second-bg-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  overflow: hidden;
   position: relative;
   z-index: 1;
   transition: 0.5s;

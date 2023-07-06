@@ -407,7 +407,7 @@ footer {
 }
 
 /* Extra Small Devices (portrait phones) */
-@media (max-width: 480px) {
+@media (max-width: 380px) {
   html {
     font-size: 50%;
   }
@@ -439,10 +439,6 @@ footer {
     min-height: auto;
   }
 
-  .header-card h3 {
-    font-size: 25px;
-  }
-
   .container {
     width: 100%;
     padding: 30px 0;
@@ -450,9 +446,13 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-template-areas: 1fr 1;
+    grid-template-areas: "area1 area1" "area2 area2";
     grid-gap: 20px;
     text-align: center;
+  }
+
+  .header-card h3 {
+    font-size: 25px;
   }
 }
 
@@ -608,5 +608,55 @@ footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1440px) {
+  /* CSS rules for Samsung S10 Plus */
+  html {
+    font-size: 50%;
+  }
+
+  .home-content h1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .header-card h3 {
+    font-size: 15px;
+  }
+
+  .card-wrap {
+    margin: 10px auto;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+  }
+
+  .project-name {
+    font-size: 16px;
+    min-height: auto;
+  }
+
+  .project-information {
+    font-size: 12px;
+    min-height: auto;
+  }
+
+  .container {
+    width: 100%;
+    padding: 30px 0;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "area1 area1" "area2 area2";
+    grid-gap: 20px;
+    text-align: center;
+  }
+
+  .header-card h3 {
+    font-size: 25px;
   }
 }

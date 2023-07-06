@@ -31,7 +31,7 @@ body {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: inherit;
   flex-direction: column;
   align-items: center;
   justify-content: center;

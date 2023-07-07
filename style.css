@@ -438,12 +438,13 @@ footer {
     width: 100%;
     padding: 30px 0;
     margin: 40px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "area1 area1" "area2 area2";
-    grid-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
   }
 
   .header-card h3 {

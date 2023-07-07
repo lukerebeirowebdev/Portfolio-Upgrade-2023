@@ -54,6 +54,7 @@ body {
   padding: 2rem 9%;
   z-index: 999;
   transition: 0.5s;
+  position: static;
 }
 
 .logo {

@@ -47,9 +47,6 @@ body {
   justify-content: space-between;
   width: 100%;
   padding: 1rem 0;
-  background: var(--second-bg-color);
-  color: var(--text-color);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem 9%;
   transition: 0.5s;
   position: static;

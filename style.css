@@ -33,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
- justify-content: center;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
   padding: 0 1rem;
@@ -50,7 +50,6 @@ body {
   color: var(--text-color);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   padding: 2rem 9%;
-  z-index: 999;
   transition: 0.5s;
   position: static;
 }
@@ -70,7 +69,6 @@ body {
   position: relative;
   display: inline-block;
   text-decoration: none;
-  z-index: 999;
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -108,8 +106,6 @@ section {
 }
 
 .home {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: url("IMG-20230618-WA0068.jpg") no-repeat;
@@ -120,7 +116,6 @@ section {
   transition: 0.5s;
   min-height: 100vh;
   position: relative;
-  z-index: 999;
   overflow: none;
 }
 

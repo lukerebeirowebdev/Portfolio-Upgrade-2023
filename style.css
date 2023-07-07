@@ -213,7 +213,6 @@ span:hover {
   padding: 20px;
   width: 100%;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   text-align: center;
 }
@@ -225,8 +224,6 @@ span:hover {
   border: #146c94 solid 3px;
   border-radius: 5%;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
 }
 
 .card-wrap .card_item:hover {
@@ -242,10 +239,8 @@ span:hover {
   padding: 35px 20px;
   min-width: 225px;
   min-height: 315px;
-  width: 50px;
   margin: 0 auto;
   display: flex;
-  justify-content: center;
 }
 
 img {
@@ -611,52 +606,3 @@ footer {
   }
 }
 
-@media (max-width: 1440px) {
-  /* CSS rules for Samsung S10 Plus */
-  html {
-    font-size: 50%;
-  }
-
-  .home-content h1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-
-  .header-card h3 {
-    font-size: 15px;
-  }
-
-  .card-wrap {
-    margin: 10px auto;
-    padding: 20px;
-    width: 100%;
-    display: flex;
-  }
-
-  .project-name {
-    font-size: 16px;
-    min-height: auto;
-  }
-
-  .project-information {
-    font-size: 12px;
-    min-height: auto;
-  }
-
-  .container {
-    width: 100%;
-    padding: 30px 0;
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "area1 area1" "area2 area2";
-    grid-gap: 20px;
-    text-align: center;
-  }
-
-  .header-card h3 {
-    font-size: 25px;
-  }
-}

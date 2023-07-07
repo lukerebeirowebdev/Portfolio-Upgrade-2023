@@ -215,6 +215,9 @@ span:hover {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .card-wrap .card_item {
@@ -224,6 +227,12 @@ span:hover {
   border: #146c94 solid 3px;
   border-radius: 5%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: 0.5s;
+  overflow: hidden;
 }
 
 .card-wrap .card_item:hover {
@@ -231,6 +240,16 @@ span:hover {
   transition: 1s;
   cursor: pointer;
   width: 700px;
+  height: 500px;
+  border: #146c94 solid 3px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: 0.5s;
+  overflow: hidden;
 }
 
 .card_wrap .card_inner {
@@ -241,6 +260,11 @@ span:hover {
   min-height: 315px;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: 0.5s;
 }
 
 img {
@@ -402,7 +426,7 @@ footer {
 }
 
 /* Extra Small Devices (portrait phones) */
-@media (max-width: 380px) {
+@media only screen and (max-width: 380px) {
   html {
     font-size: 50%;
   }
@@ -435,7 +459,6 @@ footer {
   }
 
   .container {
-    width: 100%;
     padding: 30px 0;
     margin: 40px auto;
     display: flex;
@@ -606,4 +629,3 @@ footer {
     flex-wrap: wrap;
   }
 }
-

@@ -253,8 +253,6 @@ span:hover {
 }
 
 .card_wrap .card_inner {
-  background: var(--second-bg-color);
-  border-radius: 5px;
   padding: 35px 20px;
   min-width: 225px;
   min-height: 315px;
@@ -413,12 +411,6 @@ footer {
   transition: 1s;
 }
 
-@media screen and (max-width: 462px) {
-  .card-wrap .card_item {
-    width: 100%;
-  }
-}
-
 .logo:hover {
   font-size: 30px;
   transition: 2s;
@@ -426,7 +418,7 @@ footer {
 }
 
 /* Extra Small Devices (portrait phones) */
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 600px) {
   html {
     font-size: 50%;
   }
@@ -476,7 +468,7 @@ footer {
 }
 
 /* Medium Devices (tablets) */
-@media (max-width: 830px) {
+@media only screen and (max-width: 830px) {
   .header {
     background: var(--bg-color);
   }
@@ -550,7 +542,7 @@ footer {
 }
 
 /* Large Devices (desktops) */
-@media screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
   html {
     font-size: 100%;
   }
@@ -596,7 +588,7 @@ footer {
 }
 
 /* Extra Large Devices (large desktops) */
-@media (max-width: 1500px) {
+@media only screen and (max-width: 1500px) {
   html {
     font-size: 80%;
   }

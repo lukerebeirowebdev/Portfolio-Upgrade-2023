@@ -260,7 +260,6 @@ span:hover {
 .card-wrap .card_item:hover {
   background: skyblue;
   transition: 1s;
-  cursor: pointer;
   width: 700px;
   height: 500px;
   border: #146c94 solid 3px;

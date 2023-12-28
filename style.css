@@ -112,12 +112,8 @@ section {
 .home {
   align-items: center;
   justify-content: center;
-  background: url("IMG-20230618-WA0068.jpg") no-repeat;
-  background-size: cover;
-  background-position: right;
-  padding: 10rem;
-  margin: auto;
-  transition: 0.5s;
+  padding: 10px;
+  margin: 0;
   min-height: 100vh;
   position: relative;
   overflow: none;
@@ -151,12 +147,13 @@ section {
 }
 
 .home-content p {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   margin: 1rem 0 2rem;
   padding: 1rem 0 2rem;
   font-weight: 500;
-  color: rgb(255, 255, 255);
+  color: black;
   border-radius: 3px;
+  display: flexbox; 
 }
 
 .home-content p:hover {
@@ -166,10 +163,10 @@ section {
 
 .btn-box {
   position: relative;
-  margin: 30px;
+  margin: 25px;
   display: flex;
   justify-content: space-between;
-  width: 34.5rem;
+  width: 25rem;
   height: 5rem;
 }
 
@@ -245,33 +242,28 @@ span:hover {
 }
 
 .card-wrap .card_item {
-  padding: 20px 10px;
-  margin: 20px auto;
-  width: 25%;
+  padding: 15px;
+  margin: 50px;;
+  width: 500px;
   border: #146c94 solid 3px;
   border-radius: 5%;
-  display: flex;
+  display: flexbox;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  transition: 0.5s;
   overflow: hidden;
 }
 
 .card-wrap .card_item:hover {
   background: skyblue;
-  transition: 1s;
-  width: 700px;
-  height: 500px;
   border: #146c94 solid 3px;
   border-radius: 5%;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  transition: 0.5s;
+  cursor: pointer;
   overflow: hidden;
 }
 

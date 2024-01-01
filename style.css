@@ -65,10 +65,9 @@ body {
 }
 
 .navbar a {
-  font-size: 1.7rem;
+  font-size: 16px;
   color: black;
-  font-weight: 500;
-  margin-left: 3.5rem;
+  font-weight: 600;
   padding: 15px;
   transition: 0.3s;
   position: relative;
@@ -81,7 +80,7 @@ body {
 
 .navbar a:hover,
 .navbar a:active {
-  font-size: 1.6rem;
+  font-size: 16px;
   color: #146c94;
   transition: 0.2s;
   font-family: "Poppins", sans-serif;
@@ -414,13 +413,11 @@ footer {
   left: 0;
   bottom: 0;
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
   padding: 10px;
   margin: 1px;
   background: var(--main-color);
   color: #f6f1f1;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .footer-socials a:hover {
@@ -451,7 +448,6 @@ footer {
   }
 
   .card-wrap {
-    margin: 10px auto;
     padding: 20px;
     width: 100%;
     display: flex;
@@ -533,7 +529,6 @@ footer {
 
   .card-wrap .card_item {
     width: 100%;
-    margin: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -581,7 +576,6 @@ footer {
 
   .card-wrap .card_item {
     width: 100%;
-    margin: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

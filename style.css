@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
+  width: auto;
+  height: auto;
   padding: 0;
   margin: auto 0;
   box-sizing: border-box;
@@ -153,7 +155,7 @@ section {
   font-weight: 500;
   color: black;
   border-radius: 3px;
-  display: flexbox; 
+  display: flexbox;
 }
 
 .home-content p:hover {
@@ -243,7 +245,7 @@ span:hover {
 
 .card-wrap .card_item {
   padding: 15px;
-  margin: 50px;;
+  margin: 50px;
   width: 500px;
   border: #146c94 solid 3px;
   border-radius: 5%;

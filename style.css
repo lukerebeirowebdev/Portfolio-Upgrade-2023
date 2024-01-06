@@ -417,7 +417,7 @@ footer {
   #menu-icon {
     color: var(--main-color);
     display: flex;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 3rem 0;
   }
 
@@ -441,8 +441,8 @@ footer {
   .navbar a {
     color: #f6f1f1;
     display: block;
-    font-size: 20px;
-    margin: 3rem;
+    font-size: 15px;
+    margin: 1rem;
   }
 
   .navbar a:hover {
@@ -454,3 +454,17 @@ footer {
     background: var(--bg-color);
     opacity: 0.6;
   }
+
+  .wrapper .header-card {
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 50px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+}

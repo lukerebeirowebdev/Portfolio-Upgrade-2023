@@ -147,7 +147,6 @@ section {
   font-weight: 500;
   color: black;
   border-radius: 3px;
-  display: flexbox;
 }
 
 .home-content p:hover {
@@ -157,12 +156,9 @@ section {
 
 .btn-box {
   position: relative;
-  margin: 25px;
-  display: flex;
-  justify-content: space-between;
-  place-items: center;
+  margin: auto;
   justify-content: center;
-  align-items: center;
+  display: flex;
   width: 25rem;
   height: 5rem;
 }
@@ -173,7 +169,7 @@ section {
   place-items: center;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 100%;
   background: var(--main-color);
   border: 0.4rem solid var(--main-color);
   border-radius: 0.8rem;
@@ -228,10 +224,11 @@ span:hover {
 
 .card-wrap {
   margin: 0px;
-  padding: 20px;
-  width: 100%;
+  padding: 0px;
+  width: 100% ;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -256,23 +253,11 @@ span:hover {
   background: skyblue;
   border: #146c94 solid 3px;
   border-radius: 5%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   cursor: pointer;
   overflow: hidden;
 }
 
 .card_wrap .card_inner {
-  padding: 35px 20px;
-  min-width: 225px;
-  min-height: 315px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   transition: 0.5s;
 }

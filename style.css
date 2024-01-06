@@ -160,6 +160,9 @@ section {
   margin: 25px;
   display: flex;
   justify-content: space-between;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
   width: 25rem;
   height: 5rem;
 }
@@ -170,11 +173,11 @@ section {
   place-items: center;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 70%;
   background: var(--main-color);
   border: 0.4rem solid var(--main-color);
   border-radius: 0.8rem;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   color: var(--bg-color);
   transition: 0.5s;

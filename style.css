@@ -407,3 +407,50 @@ footer {
   transition: 2s;
   animation: animate 0.3s ease infinite alternate;
 }
+
+/* Medium Devices (tablets) */
+@media only screen and (max-width: 830px) {
+  .header {
+    background: var(--bg-color);
+  }
+
+  #menu-icon {
+    color: var(--main-color);
+    display: flex;
+    font-size: 4rem;
+    margin: 3rem 0;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 15%;
+    left: -100%;
+    width: 100%;
+    padding: 1rem 4%;
+    background: var(--main-color);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0 0.2);
+    transition: 0.25s ease;
+    transition-delay: 0.25s;
+  }
+
+  .navbar.active {
+    left: 0;
+    transition-delay: 0s;
+  }
+
+  .navbar a {
+    color: #f6f1f1;
+    display: block;
+    font-size: 20px;
+    margin: 3rem;
+  }
+
+  .navbar a:hover {
+    color: #f6f1f1;
+  }
+
+  .home-imgHover {
+    pointer-events: none;
+    background: var(--bg-color);
+    opacity: 0.6;
+  }

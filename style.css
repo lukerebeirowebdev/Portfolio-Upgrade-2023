@@ -159,12 +159,11 @@ section {
   margin: auto;
   justify-content: center;
   display: flex;
-  width: 25rem;
+  width: 20rem;
   height: 5rem;
 }
 
 .btn-box .btn {
-  position: absolute;
   display: grid;
   place-items: center;
   justify-content: center;
@@ -178,9 +177,6 @@ section {
   color: var(--bg-color);
   transition: 0.5s;
   overflow: auto;
-  left: auto;
-  right: auto;
-  top: auto;
 }
 
 .btn-card {
@@ -237,8 +233,8 @@ span:hover {
 
 .card-wrap .card_item {
   padding: 15px;
-  margin: 50px;
-  width: 500px;
+  margin: 20px;
+  width: 400px;
   border: #146c94 solid 3px;
   border-radius: 5%;
   display: flexbox;

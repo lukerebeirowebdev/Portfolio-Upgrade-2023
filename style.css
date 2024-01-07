@@ -45,7 +45,7 @@ body {
 }
 
 .header-card {
-font-size: 22px;
+  font-size: 22px;
 }
 
 .logo {
@@ -254,6 +254,7 @@ img {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  border-radius: 10px;
 }
 
 .project-name {

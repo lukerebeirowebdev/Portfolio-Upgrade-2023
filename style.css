@@ -245,12 +245,13 @@ span:hover {
 }
 
 img {
-  overflow: auto;
+  padding: 15px;
+  margin: 0;
   width: 400px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .project-name {

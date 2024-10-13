@@ -305,7 +305,7 @@ footer {
   }
 
   #menu-icon {
-    color: var(--main-color);
+    color: var(--second-bg-color);
     display: flex;
     font-size: 6rem;
     margin: 3rem 0;
@@ -313,9 +313,6 @@ footer {
     z-index: 1;
   }
 
-  #menu-icon:active {
-    color: #f6f1f1;
-  }
 
   .navbar {
     top: 10%;

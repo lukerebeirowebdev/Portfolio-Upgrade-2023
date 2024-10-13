@@ -306,7 +306,7 @@ footer {
 
   #menu-icon {
     color: var(--second-bg-color);
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #0a3448;
     display: flex;
     font-size: 5rem;
     margin: 3rem 0;

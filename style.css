@@ -310,7 +310,11 @@ footer {
     font-size: 6rem;
     margin: 3rem 0;
     padding: 10px;
-    z-index: 0;
+    z-index: 1;
+  }
+
+  #menu-icon:active {
+    color: #f6f1f1;
   }
 
   .navbar {

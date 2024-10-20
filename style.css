@@ -131,6 +131,11 @@ section {
   color: black;
 }
 
+.text-about {
+  text-align: center;
+  text-indent: 10px;
+}
+
 .btn-box {
   position: relative;
   margin: auto;
@@ -380,6 +385,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+    display: flex;
   }
 
   .project-information {
@@ -396,7 +402,7 @@ footer {
     justify-content: center;
     display: flex;
     width: auto;
-    height: 5rem;
+    height: 3rem;
   }
 
   .btn-box .btn {

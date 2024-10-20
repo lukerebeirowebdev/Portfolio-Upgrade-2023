@@ -395,7 +395,7 @@ footer {
     margin: auto;
     justify-content: center;
     display: flex;
-    width: 20rem;
+    width: auto;
     height: 5rem;
   }
 

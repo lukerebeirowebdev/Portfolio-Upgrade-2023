@@ -34,7 +34,7 @@ body {
   justify-content: space-between;
   width: 100%;
   margin: 0;
-  height:100px;
+  height: 100px;
   background: var(--second-bg-color);
   position: static;
 }
@@ -221,6 +221,7 @@ section {
   background: skyblue;
   border: #146c94 solid 3px;
   border-radius: 5%;
+  transition: 0.5s;
   cursor: pointer;
   overflow: hidden;
 }
@@ -293,9 +294,9 @@ footer {
 }
 
 /* Medium Devices (tablets) */
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 850px) {
   .header {
-    background: var(--bg-color);
+    background: white;
     margin: 0;
     padding: 0;
   }
@@ -337,6 +338,14 @@ footer {
 
   .navbar a:hover {
     color: #f6f1f1;
+  }
+
+  .header-card,
+  h3 {
+    font-size: 25px;
+    word-wrap: normal;
+    margin: auto;
+    padding: auto;
   }
 
   .home-imgHover {

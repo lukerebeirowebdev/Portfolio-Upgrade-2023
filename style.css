@@ -85,6 +85,11 @@ body {
   text-transform: uppercase;
 }
 
+.Work_In_Progress {
+  font-weight: 400;
+  cursor: progress;
+}
+
 section {
   padding: auto;
 }

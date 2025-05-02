@@ -16,14 +16,10 @@ body {
   height: 100vh;
   background-image: radial-gradient(
       circle at 25% 25%,
-      #00FFFB 0%,
+      #00fffb 0%,
       transparent 50%
     ),
-    radial-gradient(
-      circle at 75% 75%,
-      #9D00FF 0%,
-      transparent 50%
-    );
+    radial-gradient(circle at 75% 75%, #9d00ff 0%, transparent 50%);
 }
 
 .container {
@@ -36,20 +32,29 @@ body {
 
 h1 {
   font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
   margin-bottom: 1rem;
-  background: linear-gradient(90deg, #00FFFB, #9D00FF);
+  background: linear-gradient(90deg, #00fffb, #9d00ff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   text-shadow: 0 0 10px rgba(78, 84, 200, 0.3);
+  opacity: 0.8;
+  animation: fadeIn 1s ease-in-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
 }
 
 .logo {
   width: 130px;
   height: 130px;
   margin: 0 auto 2rem;
-  background: linear-gradient(135deg, #00FFFB, #9D00FF);
-  position: relative;
+  background: linear-gradient(135deg, #00fffb, #9d00ff);
   border-radius: 30px;
   display: flex;
   justify-content: center;
@@ -68,19 +73,8 @@ h1 {
 p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  line-height: 1.2;
-  background: linear-gradient(135deg, #00FFFB, #9D00FF);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  text-shadow: 0 0 10px rgba(78, 84, 200, 0.3);
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 10px 25px rgba(78, 84, 200, 0.5);
-  max-width: 600px;
-  margin: 0 auto; 
+  line-height: 1.6;
   color: #b8b8b8;
-  backdrop-filter: blur(5px);
 }
 
 .countdown {
@@ -91,12 +85,7 @@ p {
 }
 
 .countdown-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background:  #00FFFB;
-  color: #0A0A0A;
+  background: rgba(255, 255, 255, 0.1);
   padding: 1rem;
   border-radius: 10px;
   min-width: 80px;
@@ -106,13 +95,31 @@ p {
 .countdown-number {
   font-size: 2rem;
   font-weight: bold;
-  color: #0A0A0A;
+  color: #8f94fb;
+  text-shadow: 0 0 10px rgba(143, 148, 251, 0.5);
+  transition: all 0.3s ease;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .countdown-label {
   font-size: 0.8rem;
   text-transform: uppercase;
-  color: #9D00FF;
+  color: #b8b8b8;
+  margin-top: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  opacity: 0.8;
+  text-shadow: 0 0 5px rgba(143, 148, 251, 0.3);
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
 }
 
 .social-links {
@@ -137,6 +144,17 @@ p {
   font-size: 4rem;
   margin-bottom: 1rem;
   animation: pulse 2s infinite;
+  color: #8f94fb;
+  text-shadow: 0 0 10px rgba(143, 148, 251, 0.5);
+  transform: rotate(15deg);
+  display: inline-block;
+  animation: pulse 1.5s infinite;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-name: pulse;
 }
 
 @keyframes pulse {
@@ -157,7 +175,7 @@ p {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: #00FFFB;
+  background-color: rgba(143, 148, 251, 0.6);
   border-radius: 2px;
   animation: float 15s infinite linear;
   z-index: 0;
@@ -195,21 +213,23 @@ p {
 }
 
 @media (max-width: 400px) {
-
   body {
     background-image: radial-gradient(
-      circle at 25% 25%,
-      #00FFFB 0%,
-      transparent 50%
-    ),
-    radial-gradient(
-      circle at 75% 75%,
-      #9D00FF 0%,
-      transparent 50%
-    );
-  
+        circle at 25% 25%,
+        rgba(20, 108, 148) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 75% 75%,
+        rgba(191, 64, 191, 0.2) 0%,
+        transparent 50%
+      );
+  }
+
   h1 {
     font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 5px rgba(78, 84, 200, 0.3);
   }
 
   .logo {
@@ -223,21 +243,22 @@ p {
 
   p {
     font-size: 1rem;
+    margin-bottom: 1rem;
   }
 
   .countdown-item {
     max-width: 80px;
     margin: auto;
     padding: 0.5rem;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
     overflow: hidden;
   }
 
   .countdown-number {
     font-size: 1.2rem;
-  }
-
-  .social-link {
-    font-size: 1rem;
+    line-height: 1.2;
+    padding: 0.5rem;
   }
 }
 
@@ -259,8 +280,4 @@ p {
     transform: translateY(-100vh) rotate(360deg);
     opacity: 0;
   }
-
-  
-}
-
 }

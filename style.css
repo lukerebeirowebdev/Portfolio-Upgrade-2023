@@ -120,11 +120,13 @@ section {
   color: #146c94;
 }
 
-.home-content h3 {
-  text-align: center;
-  font-size: 38px;
+.sub-heading {
+  font-size: 30px;
   font-weight: 500;
   color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .home-content p {
@@ -306,6 +308,15 @@ footer {
 @media only screen and (max-width: 850px) {
   .header {
     background: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  .sub-heading {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
     margin: 0;
     padding: 0;
   }

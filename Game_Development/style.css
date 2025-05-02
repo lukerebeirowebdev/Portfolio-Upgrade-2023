@@ -1,9 +1,10 @@
 /* CSS Styles */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+New:wght@400&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Arial", sans-serif;
 }
 
 body {
@@ -32,17 +33,16 @@ body {
 
 h1 {
   font-size: 3.5rem;
+  font-family: "Exo 2", sans-serif;
   font-weight: bold;
   margin: 0;
   padding: 0.5rem;
   text-align: center;
   margin-bottom: 1rem;
-  background: linear-gradient(90deg, #00fffb, #9d00ff);
+  background: linear-gradient(200deg, #00fffb, #9d00ff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-shadow: 0 0 10px rgba(78, 84, 200, 0.3);
-  opacity: 0.8;
   animation: fadeIn 1s ease-in-out;
   animation-delay: 0.5s;
   animation-fill-mode: both;
@@ -50,7 +50,18 @@ h1 {
   animation-direction: alternate;
 }
 
+h2 {
+  font-size: 2rem;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 .logo {
+  font-family: "Exo 2", sans-serif;
   width: 130px;
   height: 130px;
   margin: 0 auto 2rem;
@@ -71,6 +82,7 @@ h1 {
 }
 
 p {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1.2rem;
   margin-bottom: 2rem;
   line-height: 1.6;
@@ -235,6 +247,8 @@ p {
   .logo {
     width: 90px;
     height: 90px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
 
   .logo-inner {
@@ -243,6 +257,8 @@ p {
 
   p {
     font-size: 1rem;
+    font-weight: 550;
+    line-height: 1.4;
     margin-bottom: 1rem;
     margin-top: 1rem;
   }

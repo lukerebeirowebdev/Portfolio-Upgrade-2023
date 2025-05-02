@@ -13,7 +13,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   background-image: radial-gradient(
       circle at 25% 25%,
       rgba(20, 108, 148) 0%,

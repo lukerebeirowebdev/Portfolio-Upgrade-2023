@@ -237,8 +237,8 @@ section {
 }
 
 img {
-  width: 40%;
-  height: 40%;
+  width: 45%;
+  height: 45%;
   border-radius: 10px;
   margin: 0 auto;
   margin: auto;
@@ -250,7 +250,6 @@ img {
   cursor: pointer;
   border: #146c94 solid 3px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  flex-wrap: wrap;
 }
 
 .project-name {
@@ -268,10 +267,6 @@ img {
   justify-content: center;
   text-align: center;
   color: black;
-}
-
-.project-name .project-information:hover {
-  color: red;
 }
 
 /* Footer */
@@ -323,6 +318,20 @@ footer {
     margin: 3rem 0;
     padding: 10px;
     z-index: 1;
+  }
+  img {
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    border: #146c94 solid 3px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   }
 
   .navbar {

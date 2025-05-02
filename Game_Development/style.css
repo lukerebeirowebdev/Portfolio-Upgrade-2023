@@ -13,9 +13,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   background-image: radial-gradient(
       circle at 25% 25%,
-      rgba(46, 49, 146, 0.2) 0%,
+      rgba(20, 108, 148) 0%,
       transparent 50%
     ),
     radial-gradient(
@@ -36,7 +37,7 @@ body {
 h1 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
-  background: linear-gradient(90deg, #4e54c8, #8f94fb);
+  background: linear-gradient(90deg, #146c94, #8f94fb);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -47,7 +48,7 @@ h1 {
   width: 130px;
   height: 130px;
   margin: 0 auto 2rem;
-  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  background: linear-gradient(135deg, #146c94, #8f94fb);
   border-radius: 30px;
   display: flex;
   justify-content: center;
@@ -119,28 +120,6 @@ p {
   font-size: 4rem;
   margin-bottom: 1rem;
   animation: pulse 2s infinite;
-}
-a,
-.projects-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  flex-direction: column;
-  align-items: center;
-  color: #e6e6e6;
-  font-size: 1.2rem;
-  margin: 0.5rem 0;
-  transition: all 0.3s ease;
-  text-decoration: none;
-  padding: 1rem 2rem;
-  border-radius: 10px;
-}
-
-.copy-right {
-  font-size: 0.8rem;
-  color: #b8b8b8;
-  margin-top: 2rem;
 }
 
 @keyframes pulse {

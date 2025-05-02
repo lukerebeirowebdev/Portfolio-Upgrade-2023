@@ -237,11 +237,20 @@ section {
 }
 
 img {
-  width: 300px;
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+  margin: 0 auto;
   margin: auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+  border: #146c94 solid 3px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   flex-wrap: wrap;
-  border-radius: 10px;
 }
 
 .project-name {

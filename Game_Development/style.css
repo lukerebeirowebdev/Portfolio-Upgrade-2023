@@ -189,7 +189,9 @@ p {
   height: 20px;
   background-color: rgba(143, 148, 251, 0.6);
   border-radius: 2px;
-  animation: float 15s infinite linear;
+  animation: float 10s infinite linear;
+  opacity: 0;
+  box-shadow: 0 0 10px rgba(143, 148, 251, 0.5);
   z-index: 0;
 }
 

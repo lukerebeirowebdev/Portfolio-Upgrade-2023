@@ -241,7 +241,7 @@ section {
 img {
   width: 15%;
   height: 155%;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 0 auto;
   margin: auto;
   display: flex;
@@ -250,7 +250,7 @@ img {
   overflow: hidden;
   transition: 0.5s;
   cursor: pointer;
-  border: #146c94 solid 3px;
+  border: #146c94 solid 6px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 

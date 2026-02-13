@@ -118,6 +118,7 @@ section {
 
 .home-content h1 span {
   color: #146c94;
+  text-shadow: 1px 2px 15px #66bde6;
 }
 
 .sub-heading {
@@ -397,6 +398,8 @@ footer {
 
   .home-content h1 span {
     color: #146c94;
+    text-shadow: 1px 2px 15px #66bde6;
+
   }
 
   .home-content .text-animate h3 {

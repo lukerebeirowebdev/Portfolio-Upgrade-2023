@@ -1,6 +1,6 @@
 // Countdown timer
 const countdown = () => {
-    const launchDate = new Date("December 30, 2025 00:00:00").getTime();
+    const launchDate = new Date("December 31st , 2026 00:00:00").getTime();
     const now = new Date().getTime();
     const distance = launchDate - now;
 

@@ -24,6 +24,8 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background: var(--bg-color);
+  background-image: radial-gradient(circle at top left, rgba(241, 125, 122, 0.12), transparent 28%),
+    radial-gradient(circle at bottom right, rgba(58, 156, 159, 0.12), transparent 32%);
   color: var(--text-primary);
   display: flex;
   flex-direction: column;
@@ -156,8 +158,10 @@ a {
 }
 
 .btn:hover {
-  background: transparent;
-  color: var(--accent);
+  background: linear-gradient(135deg, var(--accent-soft), var(--accent));
+  color: var(--surface);
+  border-color: transparent;
+  box-shadow: 0 12px 24px rgba(241, 125, 122, 0.18);
 }
 
 /* Cards */

@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --bg-color: #f6f1f1;
+  --bg-color: #f5f2ef;
   --surface: #ffffff;
-  --text-primary: #000000;
-  --text-light: #666666;
-  --accent: #146c94;
-  --accent-light: #66bde6;
+  --text-primary: #1f2027;
+  --text-light: #5c606b;
+  --accent: #3a9c9f;
+  --accent-dark: #145f61;
+  --accent-soft: #f17d7a;
+  --border: #dde0e4;
 }
 
 * {
@@ -182,7 +184,7 @@ a {
   width: 100%;
   max-width: 350px;
   background: var(--surface);
-  border: 2px solid var(--accent);
+  border: 2px solid var(--border);
   border-radius: 0.5rem;
   transition: all 0.3s ease;
   text-align: center;
@@ -243,7 +245,7 @@ footer {
   padding: 2rem;
   text-align: center;
   margin-top: 2rem;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid var(--border);
 }
 
 .footer-text p {

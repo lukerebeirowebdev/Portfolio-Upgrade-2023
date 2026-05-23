@@ -49,6 +49,12 @@ a {
   color: var(--accent);
 }
 
+.navbar {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
 .navbar a {
   font-size: 0.875rem;
   font-weight: 500;
@@ -75,6 +81,7 @@ a {
   cursor: pointer;
   display: none;
   color: var(--accent);
+  transition: transform 0.3s ease;
 }
 
 /* Main Container */
@@ -272,6 +279,7 @@ footer {
 @media (max-width: 768px) {
   .header {
     padding: 1rem;
+    position: relative;
   }
 
   .logo {
@@ -283,12 +291,15 @@ footer {
     top: 100%;
     left: -100%;
     width: 100%;
+    height: auto;
+    max-height: calc(100vh - 80px);
     background: var(--accent);
     flex-direction: column;
     padding: 1rem 0;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: left 0.3s ease;
-    z-index: 10;
+    z-index: 1000;
+    overflow-y: auto;
   }
 
   .navbar.active {
@@ -300,15 +311,35 @@ footer {
     padding: 1rem;
     color: var(--surface);
     text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background 0.3s ease;
+  }
+
+  .navbar a:last-child {
+    border-bottom: none;
   }
 
   .navbar a:hover {
+    background: rgba(0, 0, 0, 0.1);
     color: var(--bg-color);
   }
 
+  .navbar a.active {
+    background: rgba(0, 0, 0, 0.2);
+    color: var(--surface);
+  }
+
   #menu-icon {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--text-primary);
+    margin-left: auto;
+    z-index: 1001;
+  }
+
+  #menu-icon.bx-x {
+    transform: rotate(180deg);
   }
 
   .home-content h1 {
@@ -359,11 +390,79 @@ footer {
     max-width: 90%;
     padding: 0;
   }
+
+  .navbar a {
+    padding: 0.875rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Tablet - Medium */
+@media (min-width: 481px) and (max-width: 768px) {
+  .navbar a {
+    padding: 0.875rem 1rem;
+  }
+}
+
+/* Desktop - Small */
+@media (min-width: 769px) {
+  .header {
+    position: relative;
+  }
+
+  .navbar {
+    display: flex !important;
+    position: static;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    flex-direction: row;
+    gap: 0;
+    z-index: 1;
+    left: 0;
+    width: auto;
+  }
+
+  #menu-icon {
+    display: none !important;
+  }
+
+  .home-image {
+    max-width: 500px;
+  }
 }
 
 /* Large Desktop */
 @media (min-width: 1024px) {
+  .navbar {
+    gap: 0.5rem;
+  }
+
+  .navbar a {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.875rem;
+  }
+
   .home-image {
     max-width: 550px;
+  }
+
+  .header-card {
+    font-size: 2.25rem;
+  }
+}
+
+/* Extra Large Desktop */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1400px;
+  }
+
+  .navbar a {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .home-content h1 {
+    font-size: 4.5rem;
   }
 }
